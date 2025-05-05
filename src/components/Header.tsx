@@ -11,7 +11,7 @@ const Header: React.FC = () => {
           alt="AIM Logo" 
           className="h-14 w-auto" 
         />
-        <span className="text-aim-blue font-medium text-xl md:text-2xl">AIM Knowledge Navigator</span>
+        <span className="text-aim-blue font-medium text-lg md:text-xl">AIM Knowledge Navigator</span>
       </div>
       <nav className="hidden md:flex items-center gap-8">
         <a href="#features" className="text-gray-700 hover:text-aim-blue transition-colors">Features</a>
