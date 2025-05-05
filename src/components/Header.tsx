@@ -11,13 +11,13 @@ const Header: React.FC = () => {
           alt="AIM Logo" 
           className="h-14 w-auto" 
         />
-        <span className="text-aim-blue font-medium text-xl md:text-2xl">Knowledge Navigator</span>
+        <span className="text-aim-blue font-medium text-xl md:text-2xl">AIM Knowledge Navigator</span>
       </div>
       <nav className="hidden md:flex items-center gap-8">
         <a href="#features" className="text-gray-700 hover:text-aim-blue transition-colors">Features</a>
         <a href="#benefits" className="text-gray-700 hover:text-aim-blue transition-colors">Benefits</a>
-        <a href="#about" className="text-gray-700 hover:text-aim-blue transition-colors">About</a>
-        <a href="#contact" className="text-gray-700 hover:text-aim-blue transition-colors">Contact</a>
+        <a href="https://institute.aimpa.org/" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-aim-blue transition-colors">About</a>
+        <a href="https://institute.aimpa.org/meet-us/contact-us" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-aim-blue transition-colors">Contact</a>
       </nav>
       <div className="flex items-center gap-4">
         <Button variant="outline" className="hidden md:flex">Log In</Button>
